@@ -14,7 +14,7 @@ int main() {
 
     CircleShape cirkle(40);
     cirkle.setPointCount(100);
-    cirkle.setFillColor(Color::Yellow);
+    cirkle.setFillColor(Color::Green);
     CircleShape circle(30);
     cirkle.setPosition(100,100);
     circle.setPointCount(13);
