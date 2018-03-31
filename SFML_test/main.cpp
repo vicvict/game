@@ -29,11 +29,11 @@ int main() {
         Vector2i PixelPos = Mouse::getPosition(window);
 
         Event event;
-        cirkle.setPosition(cirkle.getPosition().x, cirkle.getPosition().y + 0.005 * time);
+       /* cirkle.setPosition(cirkle.getPosition().x, cirkle.getPosition().y + 0.05 * time);
          window.clear(Color::White);
         window.draw(cirkle);
-        window.display();
-       /* while (window.pollEvent(event)) {
+        window.display();*/
+        while (window.pollEvent(event)) {
 
             if (event.type == Event::Closed) {
 
@@ -76,7 +76,7 @@ int main() {
 
             window.display();
 
-        }*/
+        }
 
     }
 
