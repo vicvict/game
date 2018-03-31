@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alex/CLionProjects/SFML_test/main.cpp" "/home/alex/CLionProjects/SFML_test/cmake-build-debug/CMakeFiles/SFML_test.dir/main.cpp.o"
+  "/home/alex/CLionProjects/game/SFML_test/main.cpp" "/home/alex/CLionProjects/game/SFML_test/cmake-build-debug/CMakeFiles/SFML_test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

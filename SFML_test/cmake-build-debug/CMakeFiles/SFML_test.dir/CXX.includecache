@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/CLionProjects/SFML_test/main.cpp
+/home/alex/CLionProjects/game/SFML_test/main.cpp
 iostream
 -
 SFML/Graphics.hpp
-/home/alex/CLionProjects/SFML_test/SFML/Graphics.hpp
+/home/alex/CLionProjects/game/SFML_test/SFML/Graphics.hpp
 time.h
 -
 cmath

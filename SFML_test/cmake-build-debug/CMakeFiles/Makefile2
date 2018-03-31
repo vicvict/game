@@ -54,10 +54,10 @@ RM = /home/alex/Downloads/clion-2017.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alex/CLionProjects/SFML_test
+CMAKE_SOURCE_DIR = /home/alex/CLionProjects/game/SFML_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alex/CLionProjects/SFML_test/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alex/CLionProjects/game/SFML_test/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/SFML_test.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/alex/CLionProjects/SFML_test/cmake-build-debug
 CMakeFiles/SFML_test.dir/all:
 	$(MAKE) -f CMakeFiles/SFML_test.dir/build.make CMakeFiles/SFML_test.dir/depend
 	$(MAKE) -f CMakeFiles/SFML_test.dir/build.make CMakeFiles/SFML_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alex/CLionProjects/SFML_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target SFML_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alex/CLionProjects/game/SFML_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target SFML_test"
 .PHONY : CMakeFiles/SFML_test.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/SFML_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SFML_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/CLionProjects/SFML_test/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/CLionProjects/game/SFML_test/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SFML_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/CLionProjects/SFML_test/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alex/CLionProjects/game/SFML_test/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SFML_test.dir/rule
 
 # Convenience name for target.
