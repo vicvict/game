@@ -76,6 +76,7 @@ int main() {
             window.draw(cirkle);
 
             window.display();
+            //new comment
 
         }
 
