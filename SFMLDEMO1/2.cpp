@@ -19,14 +19,14 @@ void flyr()
     float speed_x = 2*sqrt((100 - start_x)*(100-start_x)+(100-start_y)*(100-start_y))*cos(al);
     float speed_y = 2*sqrt((100 - start_x)*(100-start_x)+(100-start_y)*(100-start_y))*sin(al);
     float speed_y1;
-    while((sqrt(speed_x*speed_x+speed_y*speed_y) >10))
+    while((sqrt(speed_x*speed_x+speed_y*speed_y) >1))
     {
         float time = clock.getElapsedTime().asSeconds();
-        speed_y1 =speed_y+ 50*time;
+        speed_y1 =speed_y+ 100*time;
         cirkle.setPosition(start_x+speed_x*time,start_y+speed_y*time+50*time*time);
         if(circle.getGlobalBounds().intersects(cirkle.getGlobalBounds()))
             circle.setPosition(-100,0);
-        if((cirkle.getPosition().x>=560))
+        if((cirkle.getPosition().x>560))
         {
             start_x = cirkle.getPosition().x;
             start_y = cirkle.getPosition().y;
@@ -35,7 +35,7 @@ void flyr()
             speed_y = speed_y1;
             clock.restart();
         }
-        if((cirkle.getPosition().y>=400))
+        if((cirkle.getPosition().y>400))
         {
             start_x = cirkle.getPosition().x;
             start_y = cirkle.getPosition().y;
