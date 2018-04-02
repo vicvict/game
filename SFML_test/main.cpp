@@ -2,6 +2,7 @@
 #include "SFML/Graphics.hpp"
 #include <time.h>
 #include <cmath>
+
 using namespace sf;
 bool isMove = false;
 bool fly = false;
